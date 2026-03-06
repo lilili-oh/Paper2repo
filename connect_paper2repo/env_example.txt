@@ -1,0 +1,28 @@
+# GitHub API配置
+GITHUB_TOKEN=your_github_token_here
+
+# 模型配置
+EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+SIMILARITY_THRESHOLD=0.3
+
+# 数据库配置
+CHROMA_PERSIST_DIRECTORY=./data/chroma_db
+
+# 文本处理配置
+REMOVE_PUNCTUATION=true
+LOWERCASE=true
+REMOVE_STOPWORDS=true
+LEMMATIZE=true
+
+# 代码分析配置
+SUPPORTED_LANGUAGES=python,javascript,java,cpp,go,rust
+
+# 对齐算法配置
+ALIGNMENT_METHOD=semantic
+SIMILARITY_METRICS=cosine,euclidean,manhattan
+
+# 可视化配置
+MAX_DISPLAY_ITEMS=50
+SIMILARITY_COLOR_MAP=viridis
+
+
